@@ -5,30 +5,51 @@
  */
 
 /* You can override the default Infima variables here. */
+/* colore su light (background #ffffff): */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #276342;
+  --ifm-color-primary-dark: #23593b;
+  --ifm-color-primary-darker: #215438;
+  --ifm-color-primary-darkest: #1b452e;
+  --ifm-color-primary-light: #2b6d49;
+  --ifm-color-primary-lighter: #2d724c;
+  --ifm-color-primary-lightest: #338156;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #cbdcc8;
+  --ifm-color-primary-dark: #b3ccae;
+  --ifm-color-primary-darker: #a7c4a1;
+  --ifm-color-primary-darkest: #82ab7b;
+  --ifm-color-primary-light: #e3ece2;
+  --ifm-color-primary-lighter: #eff4ee;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-background-color: #182018;
+}
+/* Banner container */.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+/* Left side (logo and title) */.left-side {
+  display: flex;
+  align-items: center;
+}.logo {
+  height: 80px; /* Adjust height as needed */
+  margin-right: 2rem;
+}.hero__title {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 0.5rem;
+}.hero__subtitle {
+  font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+/* Right side (buttons) */.right-side {
+  display: flex;
+}.button {
+  /* Customize button styles as needed */
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
