@@ -22,21 +22,21 @@ import {
 
 const features = [
   {
-    name: "Friendly UI system for interacting and managing STI approaches",
+    name: "Intuitive Chat Interface:",
     description:
-      "We know designing a user-friendly, robust UI can be a challenge and can demand both technical prowess and design skills, that is why we developed MantisTable UI",
+      " LLMind Chat employs a user-friendly chat interface, enabling mental health professionals to interact with the system and receive diagnostic suggestions in a familiar and accessible manner. ",
     icon: SquareChartGantt,
   },
   {
-    name: "Visualisation of annotations",
+    name: "Real-Time Diagnostic Support:",
     description:
-      "With MantisTable UI, you can easily visualise table annotations, providing a clear and intuitive overview of your data",
+      "The chat-based system provides real-time responses, offering immediate diagnostic and differential diagnostic suggestions to clinicians as they input patient information.",
     icon: SquarePen,
   },
   {
-    name: "Powerful and flexible plugin system",
+    name: "Flexible and Efficient:",
     description:
-      "This incredible feature enables users to easily extend and customise its functionality, offering a seamless experience and allowing for effortless expansion and personalisation",
+      "LLMind Chat’s conversational approach allows for dynamic adaptation to specific cases and reduces the time required for information gathering and analysis.",
     icon: Blocks,
   },
 ];
